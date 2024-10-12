@@ -11,11 +11,38 @@ body {
 }
 hr {
     width: 50rem;
+    height: 0.2rem; 
+    background-color: rgb(46, 52, 48); 
+    border: none; 
+    margin: 0 auto; 
 }
 
 #board {
     width: 40rem;
     height: 40rem;
-    background-color: rgb(127, 255, 174);
-    border: 1rem solid rgb(127, 255, 165);
+    background-color: rgb(175, 215, 126);
+    border: 0.5rem solid rgb(46, 52, 48);
+    border-radius: 1rem;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 5rem;
+}
+
+.tile {
+    background-color: rgb(232, 247, 247);
+    width: 9rem;
+    height: 9rem; 
+    font-size: 4rem;
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 0.5rem solid rgb(32, 100, 45); /* Добавление границы */
+    
 }
