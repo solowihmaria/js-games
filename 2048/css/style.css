@@ -18,10 +18,10 @@ hr {
 }
 
 #board {
-    width: 40rem;
-    height: 40rem;
-    background-color: rgb(175, 215, 126);
-    border: 0.5rem solid rgb(46, 52, 48);
+    width: 41rem;
+    height: 41rem;
+    background-color: rgb(65, 62, 79); 
+    border: 0.5rem solid rgb(65, 62, 79); 
     border-radius: 1rem;
 
     margin: 0 auto;
@@ -35,14 +35,71 @@ hr {
 
 .tile {
     background-color: rgb(232, 247, 247);
-    width: 9rem;
-    height: 9rem; 
+    width: 10rem;
+    height: 10rem; 
     font-size: 4rem;
     font-weight: bold; 
     display: flex;
     justify-content: center;
     align-items: center;
     
-    border: 0.5rem solid rgb(32, 100, 45); /* Добавление границы */
+    border: 0.5rem solid rgb(65, 62, 79); 
     
 }
+
+.x2 {
+    background-color: #dfecf7; 
+    color: black;
+}
+
+.x4 {
+    background-color: #b1d2f3; 
+    color: black;
+}
+
+.x8 {
+    background-color: #77a8d9; 
+    color: black; 
+}
+
+.x16 {
+    background-color: #587bd4; 
+    color: black;
+}
+
+.x32 {
+    background-color: #447eb8; 
+    color: white;
+}
+
+.x64 {
+    background-color: #475da4; 
+    color: white;
+}
+
+.x128 {
+    background-color: #263f93; 
+    color: white;
+}
+
+.x256 {
+    background-color: #182e76; 
+    color: white;
+}
+
+.x512 {
+    background-color: #001559; 
+    color: white;
+}
+
+.x1024 {
+    background-color: #002244; 
+    color: white;
+}
+
+.x2048 {
+    background-color: #02080e; 
+    color: white;
+}
+
+
